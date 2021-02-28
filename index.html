@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 15 - SMT</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top bg-light navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="/">Assignment 15</a>
+
+                <span class="navbar-text ml-md-auto font-weight-bold">
+                    Submitted By: <span class="font-weight-normal">M. Zuraiz Zafar</span>
+                </span>
+            </div>
+        </nav>
+    </header>
+    <section class="main-section pt-5">
+        <div class="container pt-5 pt-sm-2">
+            <div class="row pt-5 pt-sm-4">
+                <h2 class="col-12 border-bottom pb-2 mb-2">Conditions</h2>
+                <div class="col-sm-4 m-2 p-3 m-sm-0 outline rounded" id="question1">
+                    <h4>Question 1</h4>
+                    <hr>
+                    <input class="form-control" placeholder="Enter first number..." name="q1-num1" id="q1-num1"
+                        type="number">
+                    <input class="form-control mt-2" placeholder="Enter second number..." name="q1-num2" id="q1-num2"
+                        type="number">
+                    <div>
+                        <button class="btn btn-success text-white mt-2" onclick="question1()">Find Maximum</button>
+                    </div>
+                </div>
+                <div class="col-sm-4 m-2 p-3 m-sm-0 outline rounded" id="question2">
+                    <h4>Question 2</h4>
+                    <hr>
+                    <input class="form-control" placeholder="Enter first number..." name="q2-num1" id="q2-num1"
+                        type="number">
+                    <input class="form-control mt-2" placeholder="Enter second number..." name="q2-num2" id="q2-num2"
+                        type="number">
+                    <input class="form-control mt-2" placeholder="Enter third number..." name="q2-num3" id="q2-num3"
+                        type="number">
+                    <div>
+                        <button class="btn btn-success text-white mt-2" onclick="question2()">Find Maximum</button>
+                    </div>
+                </div>
+                <div class="col-sm-4 m-2 p-3 m-sm-0 outline rounded" id="question3">
+                    <h4>Question 3</h4>
+                    <hr>
+                    <input class="form-control" placeholder="Enter number..." name="q3-num" id="q3-num" type="number">
+                    <div>
+                        <button class="btn btn-success text-white mt-2" onclick="question3()">Check Number</button>
+                    </div>
+                </div>
+                <div class="col-sm-4 m-2 p-3 m-sm-0 outline rounded" id="question4">
+                    <h4>Question 4</h4>
+                    <hr>
+                    <input class="form-control" placeholder="Enter number..." name="q4-num" id="q4-num" type="number">
+                    <div>
+                        <button class="btn btn-success text-white mt-2" onclick="question4()">Divisible by 5 or
+                            11?</button>
+                    </div>
+                </div>
+                <div class="col-sm-4 m-2 p-3 m-sm-0 outline rounded" id="question5">
+                    <h4>Question 5</h4>
+                    <hr>
+                    <input class="form-control" placeholder="Enter number..." name="q5-num" id="q5-num" type="number">
+                    <div>
+                        <button class="btn btn-success text-white mt-2" onclick="question5()">Even or Odd?</button>
+                    </div>
+                </div>
+                <div class="col-sm-4 m-2 p-3 m-sm-0 outline rounded" id="question6">
+                    <h4>Question 6</h4>
+                    <hr>
+                    <input class="form-control" placeholder="Enter year..." name="q6-num" id="q6-num" min="0"
+                        type="number">
+                    <div>
+                        <button class="btn btn-success text-white mt-2" onclick="question6()">Leap or not?</button>
+                    </div>
+                </div>
+                <div class="col-sm-4 m-2 p-3 m-sm-0 outline rounded" id="question7">
+                    <h4>Question 7</h4>
+                    <hr>
+                    <input class="form-control" placeholder="Enter character..." name="q7-num" id="q7-num" type="text">
+                    <div>
+                        <button class="btn btn-success text-white mt-2" onclick="question7()">Alphabet or not?</button>
+                    </div>
+                </div>
+                <div class="col-sm-4 m-2 p-3 m-sm-0 outline rounded" id="question8">
+                    <h4>Question 8</h4>
+                    <hr>
+                    <input class="form-control" placeholder="Enter character..." name="q8-num" id="q8-num" type="text">
+                    <div>
+                        <button class="btn btn-success text-white mt-2" onclick="question8()">Vowel or not?</button>
+                    </div>
+                </div>
+                <div class="col-sm-4 m-2 p-3 m-sm-0 outline rounded" id="question9">
+                    <h4>Question 9</h4>
+                    <hr>
+                    <input class="form-control" placeholder="Enter character..." name="q9-num" id="q9-num" type="text">
+                    <div>
+                        <button class="btn btn-success text-white mt-2" onclick="question9()">Alphabet, Special or
+                            digit?</button>
+                    </div>
+                </div>
+                <h2 class="col-12 border-bottom pb-2 mb-2">Strings Handling</h2>
+
+            </div>
+        </div>
+    </section>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
